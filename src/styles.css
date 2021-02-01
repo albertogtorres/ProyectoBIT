@@ -1,0 +1,399 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+
+    font-family: 'Titillium Web', sans-serif;
+  
+}
+h1 {
+    font-size: 66px;
+    font-weight: 600 ;
+    line-height: 80px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+}
+h2 {
+
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Titillium Web', sans-serif ;
+}
+p {
+    font-size: 20px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0;
+    font-family: 'Titillium Web', sans-serif ;
+}
+.parr {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.8;
+    margin-bottom: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+.carrito{
+    size: 20;
+
+}
+a:hover{
+    text-decoration: none ;
+
+}
+section {
+    padding: 20px 0;
+
+}
+.topmargind-lg {
+    margin-top: 15px;
+
+}.topmargind-lg {
+    margin-top: 30px;
+    
+}.topmargind-lg {
+    margin-top: 60px;
+    
+}
+.btn {
+    font-size: 14px;
+    padding: 15px 26px ;
+    min-width: 2px;
+    display: inline-block;
+
+}
+.btn-light {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+.btn i {
+    font-size: 14px;
+    margin-left: 5px ;
+}
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+    
+}
+
+.nav-item a:hover{
+display: block;
+padding: 15px 20px;
+color: #3d3d3d;
+}
+.nav-link {
+    color: #1a1a1a;
+    font-size: 20px;
+}
+.nav-link:hover {
+    color: #1a1a1a;
+}
+.logo-brand {
+    min-width: 100px;
+    max-width: 100px;
+    position: relative;
+}
+.navbar-toggler {
+    font-size: 40px;
+}
+.navbar-toggler:focus {
+    outline: none;
+}
+
+#hero {
+    
+    background-size: cover;
+    background-position: center;
+    padding-top: 90px;
+    min-height: 850px;
+    color: #ffffff;
+}
+
+#hero p {
+    color: #ffffff;
+
+}
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+.content-center1 {
+    max-width: 800px;
+    margin: 60px auto 60px auto;
+    text-align: center;
+    ;
+}
+
+
+
+
+@media (min-width: 768px) { }
+
+
+@media (min-width: 992px) { }
+
+
+@media (min-width: 1200px) {  }
+
+  
+header .carousel-inner .item {
+	height: 100vh;
+}
+
+.carousel-item {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 835px;
+}
+.carousel-caption {
+	padding-bottom: 250px;
+	font-family: poppins;
+}
+.carousel-caption h2 {
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h2 span {
+	color: #EDBB00;
+}
+.carousel-caption a {
+	
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	
+}
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control.left {
+	background-image: none;
+}
+
+
+
+
+    
+footer {
+    padding-top: 20px;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.content1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+}
+.content1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+footer{
+  position: static;
+  bottom: 0px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #b64300;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #d4d4d4;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #5a5a5a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #f12020;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #333333;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #cecece;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form .msgForm:focus{
+  outline-color: #e93b3b;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 200px;
+  border: none;
+  outline: none;
+  background: #f12020;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: rgb(121, 121, 121);
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+.banner2 {
+
+    height: 20vh;
+    width: 100%;
+}
+.portafolio-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0 ;
+    border-radius: 2px;
+}
+.portafolio-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s ;
+    transition: all 0.8s;
+}
+.portafolio-container:hover img {
+
+-moz-transform: scale(1.2) ;
+-webkit-transform: scale(1.2) ;
+
+transform: scale(1.2);
+}
+
+
+.portafolio-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000 ;
+}
+.portafolio-details a h2, .portafolio-details a p {
+    color: #ffffff;
+}
+
+@media (min-width: 576px) { 
+   h1 {
+       font-size:70px;
+       line-height: normal;
+   }
+ }
